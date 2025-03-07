@@ -1,33 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SUBJECTS 3  //for 3 papers
-#define ASSIGMENTS 4
-
 int main()
 {
-    // use a 2 dimensional array
-    float marks[SUBJECTS][ASSIGMENTS];
-    float average[SUBJECTS];
-    int i,y;
+    int n;
+    printf(" enter number of animals\n");
+    scanf("%d",&n);
 
-   // Arrays for subject names and test names for clearer prompts.
-    char *subjects[SUBJECTS] = {"Physics", "Chemistry", "Math"};
-    char *tests[ASSIGMENTS] = {"Assignment", "Course Work", "Midterm", "End-Term Exam"};
-
-    for(i = 0; i<SUBJECTS; i++) {
-        printf("Enter marks for %s\n", subjects[0]);
-
-        int sum = 0;
-        for(int j=0; j<ASSIGMENTS; i++){
-                printf("Enter the marks for %s : ", tests[i]);
-                scanf("%d", &tests[i]);
-
-                sum = sum + tests[i];
-                printf("The sum of phy is %d: ", sum);
-        }
+    char domestic_animals[n];
+    printf(" enter domestic animals\n%S",domestic_animals);
+    for(int i=0; i<n;i++){
+        scanf("%s",&domestic_animals);
     }
 
+    int x;
+    printf(" enter number of wild animals\n");
+    scanf("%d",&x);
 
-     return 0;
+    char wild_animals[x];
+    printf(" enter wild animals\n%S",wild_animals);
+    for(int i=0; i<n;i++){
+        scanf("%s",&wild_animals);
+    }
+    int z=n+x;
+    printf("the value of n plus x is %d\n",z);
+
+
+
+
+    return 0;
 }
