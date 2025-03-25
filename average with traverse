@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char *tests[4] = {"Assignment", "Coursework", "Midterm", "End of Term"};
+    int num_tests = 4;
+
+    float physicsmarks[num_tests];
+    float chemistrymarks[num_tests];
+    float mathmarks[num_tests];
+
+    printf("Enter marks for Physics tests:\n");
+    for (int i = 0; i < num_tests; i++) {
+        printf("%s: ", tests[i]);
+        scanf("%f", &physicsmarks[i]);
+    }
+
+    printf("\nEnter marks for Chemistry tests:\n");
+    for (int i = 0; i < num_tests; i++) {
+        printf("%s: ", tests[i]);
+        scanf("%f", &chemistrymarks[i]);
+    }
+
+    printf("\nEnter marks for Math tests:\n");
+    for (int i = 0; i < num_tests; i++) {
+        printf("%s: ", tests[i]);
+        scanf("%f", &mathmarks[i]);
+    }
+
+    float physicsAvg = (physicsmarks[0] + physicsmarks[1] + physicsmarks[2] + physicsmarks[3]) / 4;
+    float chemistryAvg = (chemistrymarks[0] + chemistrymarks[1] + chemistrymarks[2] + chemistrymarks[3]) / 4;
+    float mathAvg = (mathmarks[0] + mathmarks[1] + mathmarks[2] + mathmarks[3]) / 4;
+    float total_average = (physicsAvg + chemistryAvg + mathAvg) / 3;
+
+    printf("\nAverage marks for each subject:\n");
+    printf("Physics: %.2lf\n", physicsAvg);
+    printf("Chemistry: %.2lf\n", chemistryAvg);
+    printf("Math: %.2lf\n", mathAvg);
+    printf("Overall average: %.2lf\n", total_average);
+
+    return 0;
+}
