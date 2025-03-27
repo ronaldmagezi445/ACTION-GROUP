@@ -39,3 +39,7 @@ input array[i]
 sum = sum + array[1]
 output sum
 
+
+![image](https://github.com/user-attachments/assets/704c07be-8aa8-4e96-9496-83e9d876db3c)
+
+
