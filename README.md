@@ -41,5 +41,7 @@ output sum
 
 
 ![image](https://github.com/user-attachments/assets/704c07be-8aa8-4e96-9496-83e9d876db3c)
+<img width="343" alt="image" src="https://github.com/user-attachments/assets/c2b29522-3bb1-45bc-a7fc-125755813373" />
+
 
 
