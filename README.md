@@ -11,7 +11,8 @@ KIBERU LAWRENCE  012240084
 
 <img width="337" alt="image" src="https://github.com/user-attachments/assets/d54dfa6b-0845-4449-b104-efbd49535772" />
 
-<img width="473" alt="image" src="https://github.com/user-attachments/assets/781a1cbc-181f-46d1-9fcf-ce9bd9735bee" />
+<img width="426" alt="image" src="https://github.com/user-attachments/assets/5e22844b-282d-4d0e-99d8-6392782e9be4" />
+
 
 
 **pseudocode for calulating the sum of N elements**
