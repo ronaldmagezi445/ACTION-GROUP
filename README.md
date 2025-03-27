@@ -9,16 +9,8 @@ TUMWEBAZE MARYSHILLAH 022240882
 BWIRE LEVI   012240295
 KIBERU LAWRENCE  012240084 
 
-**aligolithm of swapping two numbers**
-step1.    start
-step2.    variable1, variable2, temp_variable.
-step3.    prompt a user to enter number and store it variable1
-step.4     enter number for variable2
-step.5     assign value of variable1 to temp variable
-step 6. assign value for varriable 2 to variable1
-step7. assign the value of temp_variable to variable 2
-step 8. print the swapped values of variable1 and variable2
-step 9. stop/END
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/d54dfa6b-0845-4449-b104-efbd49535772" />
+
 
 **Aligolithm of calculating sum of N elements**
 step1. start
